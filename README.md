@@ -1,2 +1,3 @@
-# pong-in
-Pong implemented in various programming languages and frameworks.
+# Pong In ...
+
+[Pong](https://en.wikipedia.org/wiki/Pong) implemented in various programming languages and frameworks.
