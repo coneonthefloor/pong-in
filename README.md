@@ -10,8 +10,8 @@
  - should render score text for each paddle on screen
  - should draw dashed line down center of screen
  - should begin game on load
- 
- - Paddles
+
+- Paddles
   - should have two paddles of 20px width by 100px height
   - should initially set paddle in vertical center of screen
   - should place left paddle with 20px gap from the left of the screen
@@ -21,8 +21,8 @@
   - should move right paddle towards ball's y value when ball is travelling right
   - should move left paddle towards the screen's vertical center when ball is travelling right
   - should move right paddle towards the screen's vertical center when ball is travelling left
- 
- - Ball
+
+- Ball
   - should have a ball of 10px radius
   - should initially place ball in center of screen
   - should reset ball to center of screen after it exits screen
