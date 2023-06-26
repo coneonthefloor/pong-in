@@ -55,6 +55,17 @@ function movePaddleToCenter(paddle) {
   paddle.y = dest.y;
 }
 
+function resetBall() {
+  game.ball.x = canvasWidth / 2;
+  game.ball.y = canvasHeight / 2;
+
+  game.ball.speed = 4;
+
+  game.ball.vx = game.ball.vx > 0 ? -game.ball.speed : game.ball.speed;
+  game.ball.vy =
+    Math.random() > 0.5 ? -game.ball.speed / 2 : game.ball.speed / 2;
+}
+
 class Paddle {
   constructor() {
     this.x = 0;
@@ -62,7 +73,7 @@ class Paddle {
     this.vy = 0;
     this.score = 0;
     this.speed = 4;
-    this.width = 20;
+    this.width = 10;
     this.height = 100;
   }
 }
@@ -127,15 +138,6 @@ function draw() {
   );
 }
 
-function resetBall() {
-  game.ball.x = canvasWidth / 2;
-  game.ball.y = canvasHeight / 2;
-
-  game.ball.vx = game.ball.vx > 0 ? -game.ball.speed : game.ball.speed;
-  game.ball.vy =
-    Math.random() > 0.5 ? -game.ball.speed / 2 : game.ball.speed / 2;
-}
-
 function update() {
   game.ball.x += game.ball.vx;
   game.ball.y += game.ball.vy;
@@ -161,10 +163,12 @@ function update() {
   }
 
   if (ballCollidesWithPaddle(game.leftPaddle)) {
+    game.ball.speed += 0.1;
     game.ball.vx = game.ball.speed;
   }
 
   if (ballCollidesWithPaddle(game.rightPaddle)) {
+    game.ball.speed += 0.1;
     game.ball.vx = -game.ball.speed;
   }
 
