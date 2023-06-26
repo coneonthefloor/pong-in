@@ -1,9 +1,4 @@
----
-title: Pong in Javascript (Canvas API)
-setup: 0
-loc: 216
-hoursToComplete: 2
----
+# Pong in Javascript (Canvas API)
 
 $$
 (216/100) + 0 + 2 = 4.16
