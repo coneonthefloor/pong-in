@@ -2,6 +2,12 @@
 
 [Pong](https://en.wikipedia.org/wiki/Pong) implemented in various programming languages and frameworks.
 
+Each implementation will be ranked in terms of ease of use. Ease of use will be determined by time to set up environment in hours, hours taken to write the necessary code, and lines of code written. These criteria will then be quantified using the following formula.
+
+$$
+(loc/100) + setup + writing
+$$
+
 ## Results
 
 | Language   | Library           | LOC | Set Up | Writing | Score (Lower Better) |
@@ -9,16 +15,9 @@
 | Python     | Pygame            | 164 | .5     | 1.5     | 3.64                 |
 | Javascript | None (Canvas API) | 216 | 0      | 2       | 4.16                 |
 
-## Why?
+### Why?
 
 The goal of this project is compare programming languages in a naive manner. Focusing on the given programming language's ease of use. Pong, as a relatively simple and well known program, has been selected as a comparator.
-
-Ease of use will be determined by time to set up environment in hours, hours taken to write the necessary code, and lines of code written.
-These criteria will then be quantified using the following formula.
-
-$$
-(loc/100) + setup + writing
-$$
 
 ### Is programming experience and skill taken into consideration?
 
