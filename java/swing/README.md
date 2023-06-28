@@ -17,7 +17,7 @@ This version of the "Pong spec" has been implemented in [Java](https://www.java.
 Java is at a disadvantage here due to it's verbosity. This implementation is also using Swing, which is not a game library. Which again is a disadvantage.
 
 Despite this I found it quite easy to use the Java language. The syntax is incredibly clear and understandable. Swing on the other hand was not as clear.
-It took me abotu an hour to get my head around JFrames and JPanels. Once I got these working there was no further issues.
+It took me about an hour to get my head around JFrames and JPanels. Once I got those working there was no further issues.
 
 I used [Eclipse IDE](https://www.eclipse.org/) to code this implementation. So it felt like an old school coding experience. The IDE is a bit clunky.
 
