@@ -9,7 +9,7 @@ $$
 | 292         | 1           | 3           | 6.92        |
 
 
-This version of the "Pong spec" has been implemented in [Javascript](https://www.java.com/en/) using the [Swing](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html).
+This version of the "Pong spec" has been implemented in [Java](https://www.java.com/en/) using [Swing](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html).
 
 
 ## Notes
