@@ -1,3 +1,7 @@
+<div style="text-align:center">
+  ![Pong in ...](./pong.jpg "pong logo")
+</div>
+
 # Pong in ...
 
 [Pong](https://en.wikipedia.org/wiki/Pong) implemented in various programming languages and frameworks.
