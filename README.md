@@ -1,5 +1,5 @@
 <div style="text-align:center">
-  ![Pong in ...](./pong.jpg "pong logo")
+  <img src="https://github.com/coneonthefloor/pong-in/blob/master/pong.jpg" />
 </div>
 
 # Pong in ...
