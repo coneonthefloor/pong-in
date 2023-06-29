@@ -4,9 +4,9 @@ $$
 (1.86/100) + .5 + 2 = 4.36
 $$
 
-| LOC  | Set Up | Writing | Score |
-| ---- | ------ | ------- | ----- |
-| 1.86 | .5     | 2       | 4.36  |
+| LOC | Set Up | Writing | Score |
+| --- | ------ | ------- | ----- |
+| 186 | .5     | 2       | 4.36  |
 
 This version of the "Pong spec" has been implemented in [Lua](https://www.lua.org) using [Love2D](https://love2d.org).
 

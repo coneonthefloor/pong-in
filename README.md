@@ -10,12 +10,12 @@ $$
 
 ## Results
 
-| Language                                        | Library           | LOC  | Set Up | Writing | Score (Lower Better) |
-| ----------------------------------------------- | ----------------- | ---- | ------ | ------- | -------------------- |
-| [Python](./python/pygame/README.md)             | Pygame            | 164  | .5     | 1.5     | 3.64                 |
-| [Javascript](./javascript/canvas-api/README.md) | None (Canvas API) | 216  | 0      | 2       | 4.16                 |
-| [Lua](./lua/love2d/README.md)                   | Love2D            | 1.86 | .5     | 2       | 4.36                 |
-| [Java](./java/swing/README.md)                  | Swing             | 292  | 1      | 3       | 6.92                 |
+| Language                                        | Library           | LOC | Set Up | Writing | Score (Lower Better) |
+| ----------------------------------------------- | ----------------- | --- | ------ | ------- | -------------------- |
+| [Python](./python/pygame/README.md)             | Pygame            | 164 | .5     | 1.5     | 3.64                 |
+| [Javascript](./javascript/canvas-api/README.md) | None (Canvas API) | 216 | 0      | 2       | 4.16                 |
+| [Lua](./lua/love2d/README.md)                   | Love2D            | 186 | .5     | 2       | 4.36                 |
+| [Java](./java/swing/README.md)                  | Swing             | 292 | 1      | 3       | 6.92                 |
 
 ### Why?
 
