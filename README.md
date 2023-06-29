@@ -20,6 +20,7 @@ $$
 | [Javascript](./javascript/canvas-api/README.md) | None (Canvas API) | 216 | 0      | 2       | 4.16                 |
 | [Lua](./lua/love2d/README.md)                   | Love2D            | 186 | .5     | 2       | 4.36                 |
 | [Java](./java/swing/README.md)                  | Swing             | 292 | 1      | 3       | 6.92                 |
+| [C](./c/raylib/README.md)                       | Raylib            | 230 | 2      | 3       | 7.30                 |
 
 ### Why?
 
